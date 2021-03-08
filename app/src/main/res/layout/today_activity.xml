@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="93dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:text="08h-10h:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="93dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:text="10h-12h:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="93dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:text="12h-14h:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="93dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:text="14h-16h:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text4" />
+
+    <TextView
+        android:id="@+id/huit"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dix"
+        android:layout_width="159dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/text3"
+        app:layout_constraintTop_toBottomOf="@+id/huit" />
+
+    <TextView
+        android:id="@+id/douze"
+        android:layout_width="163dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/text4"
+        app:layout_constraintTop_toBottomOf="@+id/dix" />
+
+    <TextView
+        android:id="@+id/quatre"
+        android:layout_width="161dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toEndOf="@+id/text5"
+        app:layout_constraintTop_toBottomOf="@+id/douze" />
+
+    <Button
+        android:id="@+id/retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="84dp"
+        android:text="Retourner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
